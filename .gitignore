@@ -1,0 +1,35 @@
+# 编译产物
+apk/build/
+*.class
+
+# 运行时数据（含账号登录态，绝对不能提交）
+desktop/profiles/
+desktop/logs/
+desktop/config.json
+config.json
+logs/
+profiles/
+
+# 签名私钥（需要自己生成）
+*.keystore
+*.jks
+apk/debug.keystore
+
+# 签名中间文件
+*.idsig
+*.apk.idsig
+
+# 系统/编辑器垃圾
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.suo
+
+# 临时文件
+_*.txt
+_*.png
+_*.ps1
+_*.py
+_*.log
